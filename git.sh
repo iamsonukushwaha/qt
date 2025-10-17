@@ -1,8 +1,10 @@
 #!/bin/bash
 current_date_time=$(date +'%Y-%m-%d_%H-%M-%S')
 
-cd /home/sonukushwaha/qt/
+cd /root/qt/
+bash /root/qt/git.sh
 
+cd /root/q1/qt/
 
 git pull
 git add .
